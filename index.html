@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Live Weather</title>
+</head>
+<body>
+    <div class="container">
+
+
+
+        <div class="search-box">
+            <input type="text" name="" id="search-box" placeholder="Enter your city" autocomplete="off">
+        </div>
+
+
+        <div class="weather-body">
+
+            <div class="location">
+                <p id="heading">Today's Weather in </p>
+                <div class="city" id="city"></div>
+            </div>
+
+
+        <div class="weather-icon">
+            <img src="" alt="" id="weather-icon">
+        </div>
+
+            <div class="temperature" id="temp"></div>
+
+            
+            <div class="high/low" >
+                <i class="fas fa-temperature-high" id="temperature-icon"></i>
+                <p id="temperature-name">High/Low</p>
+                <p id="high">  </p>
+                <p id="low"></p>
+            </div>
+
+            <div class="wind">
+                <i class="fas fa-wind" id="wind-icon"></i>
+                <p id="wind-name">Wind</p>
+                <p id="wind-data"></p>
+            </div>
+
+            <div class="humidity">
+                <i class="fas fa-tint" id="humidity-icon"></i>
+                <p id="humidity-name">Humidity</p>
+                <p id="humidity-data"></p>
+            </div>
+
+
+            <div class="visiblity">
+                <i class="far fa-eye" id="visibility-icon"></i>
+                <p id="visibility-name">Visibility</p>
+                <p id="visibility-data"></p>
+            </div>
+            <div class="weather-type" id="weather-type">Clear</div>
+        </div>
+
+
+    </div>
+
+    <script src="weather.js"></script>
+</body>
+</html>
+
